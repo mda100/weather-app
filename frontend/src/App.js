@@ -19,14 +19,12 @@ function App() {
 
   return (
     <div className = "App">
-      <label> 
         <input
           type="text"
           required
           value={city}
           onChange ={(e) => setCity(e.target.value)} 
           /> 
-          </label>
         <input
           type="text"
           required
