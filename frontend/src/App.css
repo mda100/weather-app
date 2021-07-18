@@ -1,5 +1,91 @@
 .App {
   text-align: center;
+  background-image: url('./mountains-1412683_1280.png');
+  background-size: cover;
+  background-position: bottom;
+  font-family: 'Times New Roman', sans-serif;
+  font: 20px bold;
+}
+
+.location{
+  position: relative;
+  top: 70px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 2px solid black;
+
+
+}
+
+.search{
+  position: relative;
+  top: 40px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  padding: 10px ;
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 2px solid black;
+}
+
+.current{
+  position: relative;
+  top: 10px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 2px solid black;
+  
+}
+
+.forecast{
+  position: relative;
+  bottom: 20px;
+  padding: 10px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 
+}
+
+.forecast_1{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+.forecast_2{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.forecast_3{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
 }
 
 
