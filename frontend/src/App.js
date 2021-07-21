@@ -115,7 +115,3 @@ class App extends React.Component {
     return this.renderResults();
   }
 }
-
-export default App;
-
-
