@@ -8,7 +8,7 @@ function weatherApiBuilder(location){
   let key = "ba47e033e3c54cd5b8720248211507"
   let days = 3
   let aqi = "yes"
-  return `http://api.weatherapi.com/v1/"${type}.json?key=${key}&q=${location}&days=${days}&aqi=${aqi}}&alerts=no`;
+  return `https://api.weatherapi.com/v1/"${type}.json?key=${key}&q=${location}&days=${days}&aqi=${aqi}}&alerts=no`;
 }
 
 // Components
